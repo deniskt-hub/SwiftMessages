@@ -190,6 +190,8 @@ open class BaseView: UIView, BackgroundViewable, MarginAdjustable {
         return super.point(inside: point, with: event)
     }
 
+    public var layoutPaddingAdditions: UIEdgeInsets = .zero
+  
     /*
      MARK: - MarginAdjustable
 
