@@ -8,7 +8,7 @@
 import UIKit
 
 
-class KnobCornerRoundView: CornerRoundingView {
+open class KnobCornerRoundView: CornerRoundingView {
   
   private var hierarchyNotReady = true
   
