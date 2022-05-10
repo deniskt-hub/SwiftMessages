@@ -20,7 +20,7 @@ open class KnobCornerRoundView: CornerRoundingView {
     return view
   }()
   
-  override func didMoveToWindow() {
+  open override func didMoveToWindow() {
     super.didMoveToWindow()
     guard hierarchyNotReady else {
       return
